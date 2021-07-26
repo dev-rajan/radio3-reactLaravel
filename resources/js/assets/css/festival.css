@@ -1,0 +1,26 @@
+
+
+header:before {
+    content:"";
+    width:100%;
+    height:200px;
+    background:#d13938 url(../images/happy-dashain.png) no-repeat bottom center;
+    display:table;
+    background-size:contain;
+}
+
+.modalbox {
+    left:0;
+    top:0;
+}
+
+.wrapper {
+    background:#fff;
+}
+
+@media only screen and (max-width:767px) {
+    header:before {
+        height:80px !important;
+
+    }
+}
